@@ -1,0 +1,8 @@
+title: QM9NMR
+logo: toc.png
+description: NMR Shielding Parameters for 130831 QM9 Molecules with up to 9 C, N, O and F atoms
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
+defaults:
+  layout: single
