@@ -50,9 +50,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 ```
 
 **Column 02** T/V in training/validation set in ML
-
-#### TD-DFT Properties
-**Column 03** State (Always 1)    
+**Column 03** State index (always 1)    
 **Column 04** S0 -> S1 Excitation energy (in cm^-1)    
 **Column 05** S0 -> S1 Excitation energy (in nm)     
 **Column 06** S0 -> S1 Excitation energy (in au)     
@@ -62,14 +60,10 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
 **Column 12** TZ (in au), z-component of transition dipole moment vector      
-
-#### DFT Ground State Energy
-**Column 13** SCF energy (in au)
-
-#### PM7 properties
-**Column 14** HOMO (in eV)       
-**Column 15** LUMO (in eV)       
-**Column 16** Heat of formation (in kcal/mol)      
+**Column 13** DFT Ground State energy (in au)
+**Column 14** PM7 HOMO (in eV)       
+**Column 15** PM7 LUMO (in eV)       
+**Column 16** PM7 heat of formation (in kcal/mol)      
 
 ***
 
