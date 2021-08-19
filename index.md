@@ -49,7 +49,7 @@ The last digits (here _00002) are for indexing and can be ignored.
 Long names (Hextuply/Septuply-substituted) do not contain '_'.
 ```
 
-**Column 02** T/V in training/validation set in ML
+**Column 02** T/V in training/validation set in ML       
 **Column 03** State index (always 1)    
 **Column 04** S0 -> S1 Excitation energy (in cm^-1)    
 **Column 05** S0 -> S1 Excitation energy (in nm)     
@@ -60,7 +60,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
 **Column 12** TZ (in au), z-component of transition dipole moment vector      
-**Column 13** DFT Ground State energy (in au)
+**Column 13** DFT Ground State energy (in au)      
 **Column 14** PM7 HOMO (in eV)       
 **Column 15** PM7 LUMO (in eV)       
 **Column 16** PM7 heat of formation (in kcal/mol)      
