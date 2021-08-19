@@ -57,19 +57,17 @@ Column 16 --> Heat of formation (in kcal/mol)
 
 Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows:
 ```
-=========================================
-|Serial|  TYPE of BODIPY      | Entries |
-|  No. |                      |         |
-=========================================
-|  1.  | Unsubstituted        |    1    |
-|  2.  | Singly-substituted   |   184   |
-|  3.  | Doubly-substituted   |  22287  |
-|  4.  | Triply-substituted   |  10999  |
-|  5.  | Quadruply-substituted|  10990  |
-|  6.  | Quintuply-substituted|  10982  |
-|  7.  | Hextuply-substituted |  10986  |
-|  8.  | Septuply-substituted |  10983  |
-=========================================
+|   Serial   |     TYPE of BODIPY          |    Entries    
+|     No.    |                             |               
+|     1.     |    Unsubstituted            |       1       
+|     2.     |    Singly-substituted       |      184      
+|     3.     |    Doubly-substituted       |     22287     
+|     4.     |    Triply-substituted       |     10999     
+|     5.     |    Quadruply-substituted    |     10990     
+|     6.     |    Quintuply-substituted    |     10982     
+|     7.     |    Hextuply-substituted     |     10986     
+|     8.     |    Septuply-substituted     |     10983     
+
 ```
 
 
