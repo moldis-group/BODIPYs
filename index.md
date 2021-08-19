@@ -58,6 +58,8 @@ Column 16 --> Heat of formation (in kcal/mol)
 
 Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows
 
+***
+
 | **Type**                     | **# entries**
 | Unsubstituted            | 1       
 | Singly-substituted       | 184      
@@ -72,9 +74,12 @@ Molecule ordering is consistent across all files. BODIPYs' order of appearance i
 
 _19 August 2021: First upload_
 
+***
+
 ## References
 [Ref-1] [_Revving up <sup>13</sup>C NMR shielding predictions across chemical space: benchmarks for atoms-in-molecules kernel machine learning with new data for 134 kilo molecules_](https://doi.org/10.1088/2632-2153/abe347)            
 Amit Gupta, Sabyasachi Chakraborty and Raghunathan Ramakrishnan     
 Mach. Learn.: Sci. Technol. 2 (2021) 035010     
 [Supplementary Information to the article (PDF)](data/SI.pdf)
 
+***
