@@ -29,9 +29,13 @@ bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
 
 Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
 
+***
+
 ### 77k_BODIPYs_PM7_geom.xyz 
 
 Contains coordinates of 77412 BODIPYs relaxed using PM7.
+
+***
 
 ### 77k_BODIPYs_properties.txt 
 
