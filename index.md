@@ -57,52 +57,23 @@ Column 16 --> Heat of formation (in kcal/mol)
 
 Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows:
 ```
-==================================================================================================================================
-|Serial|  TYPE of BODIPY      | Entries |      Appearance in       |      Appearance in           |      Appearance in           |
-|  No. |                      |         |77k_BODIPYs_properties.txt|   77k_BODIPYs_DFT_geom.xyz   |   77k_BODIPYs_PM7_geom.xyz   |
-==================================================================================================================================
-|  1.  | Unsubstituted        |    1    | Line     1               | Line       1 -- Line      23 | Line       1 -- Line      23 |
-|  2.  | Singly-substituted   |   184   | Line     2 -- Line   185 | Line      24 -- Line    5135 | Line      24 -- Line    5135 |
-|  3.  | Doubly-substituted   |  22287  | Line   186 -- Line 22472 | Line    5136 -- Line  737727 | Line    5136 -- Line  737727 |
-|  4.  | Triply-substituted   |  10999  | Line 22473 -- Line 33471 | Line  737728 -- Line 1154010 | Line  737728 -- Line 1154010 |
-|  5.  | Quadruply-substituted|  10990  | Line 33472 -- Line 44461 | Line 1154011 -- Line 1624604 | Line 1154011 -- Line 1624604 |
-|  6.  | Quintuply-substituted|  10982  | Line 44462 -- Line 55443 | Line 1624605 -- Line 2153455 | Line 1624605 -- Line 2153455 |
-|  7.  | Hextuply-substituted |  10986  | Line 55444 -- Line 66429 | Line 2153456 -- Line 2733543 | Line 2153456 -- Line 2733543 |
-|  8.  | Septuply-substituted |  10983  | Line 66430 -- Line 77412 | Line 2733544 -- Line 3368359 | Line 2733544 -- Line 3368359 |
-==================================================================================================================================
+=========================================
+|Serial|  TYPE of BODIPY      | Entries |
+|  No. |                      |         |
+=========================================
+|  1.  | Unsubstituted        |    1    |
+|  2.  | Singly-substituted   |   184   |
+|  3.  | Doubly-substituted   |  22287  |
+|  4.  | Triply-substituted   |  10999  |
+|  5.  | Quadruply-substituted|  10990  |
+|  6.  | Quintuply-substituted|  10982  |
+|  7.  | Hextuply-substituted |  10986  |
+|  8.  | Septuply-substituted |  10983  |
+=========================================
 ```
 
 
 ### B3LYP/6-31G(2df,p) geometries
-[SI_DFT_geo.xyz](https://drive.google.com/file/d/1Kr9ZdYw503QsGT8qO2bid8wWQGQB-401/view?usp=sharing) Contains Cartesian coordinates of 130,831 molecules relaxed at B3LYP/6-31G(2df,p) level. These geometries are collected from the QM9 dataset reported in the [Ref-2](https://www.nature.com/articles/sdata201422)
-
-### mPW1PW91/6-311+G(2d,p) @ B3LYP/6-31G(2df,p) NMR data
-[SI_DFT_NMR.txt](https://drive.google.com/file/d/13vqG1zTsemLgfZP635pcAHjARhqDzJ8I/view?usp=sharing) For each molecule in SI_DFT_geo.xyz, contains number of atoms, followed by molecule name and isotropic shielding tensors per atom in the molecule in Gas, CCl4, THF, Acetone, Methanol and DMSO respectively, obtained at mPW1PW91/6-311+G(2d,p) level.   
-
-####  mPW1PW91/6-311+G(2d,p) @ B3LYP/6-31G(2df,p) <sup>13</sup>C shielding for tetramethylsilane (TMS) [in ppm] 
-```
-Gas      - 186.9704
-CCl4     - 187.2352
-THF      - 187.4958
-Acetone  - 187.5949
-Methanol - 187.6181
-DMSO     - 187.6304
-```
-
-### PM7 geometries
-[SI_baseline_geo.xyz](https://drive.google.com/file/d/1TgH_cbABKPMq9wG2wnftwDO_wl3XYTk2/view?usp=sharing) Contains Cartesian coordinates of 130,831 molecules relaxed at the PM7 level.   
-
-### B3LYP/STO-3G @ PM7 NMR data
-[SI_baseline_NMR.txt](https://drive.google.com/file/d/16uw_v2VlPYK57NRjDnxVYi_hfspRLQdi/view?usp=sharing) For each molecule in SI_baseline_geo.xyz, contains number of atoms, followed by molecule name and isotropic shielding tensors per atom in the molecule in gas phase obtained at B3LYP/STO-3G level.
-
-####  B3LYP/STO-3G @ PM7 <sup>13</sup>C shielding for tetramethylsilane (TMS) [in ppm] 
-```
-Gas      - 232.4620
-```
-
-***
-
-## Case studies
 
 ### Geometries
 
@@ -114,17 +85,6 @@ Gas      - 232.4620
 | [SI_PAH_baseline_geo.xyz](data/SI_PAH_baseline_geo.xyz)             | Contains 5 Polycyclic Aromatic Hydrocarbons molecules relaxed at PM7 level.                
 | [SI_GDB10to17_DFT_geo.xyz](data/SI_GDB10to17_DFT_geo.xyz)           | Contains 200 molecules from GDB10 to GDB17 molecules relaxed at B3LYP/6-31G(2df,p) level.  
 | [SI_GDB10to17_baseline_geo.xyz](data/SI_GDB10to17_baseline_geo.xyz) | Contains 200 molecules from GDB10 to GDB17 molecules relaxed at PM7 level.                
-
-### NMR data
-
-| [SI_12Drugs_DFT_NMR.txt](data/SI_12Drugs_DFT_NMR.txt) 	| For each molecule in SI_12Drugs_DFT_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at mPW1PW91/6-311+G(2d,p).       
-| [SI_12Drugs_baseline_NMR.txt](data/SI_12Drugs_baseline_NMR.txt) 	| For each molecule in SI_12Drugs_baseline_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at B3LYP/STO-3G level.      
-| [SI_40Drugs_DFT_NMR.txt](data/SI_40Drugs_DFT_NMR.txt) 	| For each molecule in SI_40Drugs_DFT_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at mPW1PW91/6-311+G(2d,p).         
-| [SI_40Drugs_baseline_NMR.txt](data/SI_40Drugs_baseline_NMR.txt) 	| For each molecule in SI_40Drugs_baseline_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at B3LYP/STO-3G level.          
-| [SI_PAH_DFT_NMR.txt](data/SI_PAH_DFT_NMR.txt) 	| For each molecule in SI_PAH_DFT_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at mPW1PW91/6-311+G(2d,p).           
-| [SI_PAH_baseline_NMR.txt](data/SI_PAH_baseline_NMR.txt) 	| For each molecule in SI_PAH_baseline_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at B3LYP/STO-3G level.          
-| [SI_GDB10to17_DFT_NMR.txt](data/SI_GDB10to17_DFT_NMR.txt) 	| For each molecule in SI_GDB10to17_DFT_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at mPW1PW91/6-311+G(2d,p).            
-| [SI_GDB10to17_baseline_NMR.txt](data/SI_GDB10to17_baseline_NMR.txt) 	| For each molecule in SI_GDB10to17_baseline_geo.xyz, contains number of atoms, molecule name and isotropic shielding tensors per atom, in Gas phase at B3LYP/STO-3G level. 
 
 ***
 
@@ -139,6 +99,3 @@ Amit Gupta, Sabyasachi Chakraborty and Raghunathan Ramakrishnan
 Mach. Learn.: Sci. Technol. 2 (2021) 035010     
 [Supplementary Information to the article (PDF)](data/SI.pdf)
 
-[Ref-2] [_Quantum chemistry structures and properties of 134 kilo molecules_](http://www.nature.com/articles/sdata201422)          
-Raghunathan Ramakrishnan, Pavlo Dral, Matthias Rupp, O. Anatole von Lilienfeld      
-Scientific Data 1, Article number: 140022 (2014).    
