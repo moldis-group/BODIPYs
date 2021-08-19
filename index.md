@@ -22,9 +22,10 @@ bunzip2 -f 77k_BODIPYs_DFT_geom.xyz.bz2
 bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
 ```
 
-77k_BODIPYs_properties.txt --> Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
+77k_BODIPYs_properties.txt contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
 
 Column 01 --> names of the molecules made up using site (s_nn) and type of substitution (g_mm)
+
 Example: g_01_s_7_00002 implies there is a substitution at site 7 by group 01. The last digits (here _00002) are for indexing and can be ignored.  Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 Column 02 --> T/V in training/validation set in ML
@@ -66,22 +67,6 @@ Molecule ordering is consistent across all files. BODIPYs' order of appearance i
 | Quintuply-substituted    | 10982     
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
-
-
-### B3LYP/6-31G(2df,p) geometries
-
-### Geometries
-
-| [SI_12Drugs_DFT_geo.xyz](data/SI_12Drugs_DFT_geo.xyz)               | Contains 12 Drug molecules relaxed at B3LYP/6-31G(2df,p) level.                            
-| [SI_12Drugs_baseline_geo.xyz](data/SI_12Drugs_baseline_geo.xyz)     | Contains 12 Drug molecules relaxed at PM7 level.                                           
-| [SI_40Drugs_DFT_geo.xyz](data/SI_40Drugs_DFT_geo.xyz)               | Contains 40 Drug molecules relaxed at B3LYP/6-31G(2df,p) level.                            
-| [SI_40Drugs_baseline_geo.xyz](data/SI_40Drugs_baseline_geo.xyz)     | Contains 40 Drug molecules relaxed at PM7 level.                                           
-| [SI_PAH_DFT_geo.xyz](data/SI_PAH_DFT_geo.xyz)                       | Contains 5 Polycyclic Aromatic Hydrocarbons molecules relaxed at B3LYP/6-31G(2df,p) level. 
-| [SI_PAH_baseline_geo.xyz](data/SI_PAH_baseline_geo.xyz)             | Contains 5 Polycyclic Aromatic Hydrocarbons molecules relaxed at PM7 level.                
-| [SI_GDB10to17_DFT_geo.xyz](data/SI_GDB10to17_DFT_geo.xyz)           | Contains 200 molecules from GDB10 to GDB17 molecules relaxed at B3LYP/6-31G(2df,p) level.  
-| [SI_GDB10to17_baseline_geo.xyz](data/SI_GDB10to17_baseline_geo.xyz) | Contains 200 molecules from GDB10 to GDB17 molecules relaxed at PM7 level.                
-
-***
 
 ## Revision notes
 
