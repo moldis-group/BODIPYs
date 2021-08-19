@@ -4,7 +4,7 @@ layout: default
 
 ## BODIPYs dataset
 
-The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
+The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub>  first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
 
 ***
 
@@ -51,11 +51,11 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 **Column 02** T/V in training/validation set in ML       
 **Column 03** State index (always 1)    
-**Column 04** S0 -> S1 Excitation energy (in cm^-1)    
-**Column 05** S0 -> S1 Excitation energy (in nm)     
-**Column 06** S0 -> S1 Excitation energy (in au)     
-**Column 07** S0 -> S1 Excitation energy (in eV)     
-**Column 08** Oscillator strength of S0 -> S1 excitation     
+**Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm^-1)    
+**Column 05** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in nm)     
+**Column 06** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in au)     
+**Column 07** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in eV)     
+**Column 08** Oscillator strength of S<sub>0</sub>  → S<sub>1</sub>  excitation     
 **Column 09** T^2 (in au^2), square of transition dipole moment     
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
@@ -79,7 +79,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
 
-## Machine for S0 → S1 excitation energy of BODIPYs
+## Machine for S<sub>0</sub>  → S<sub>1</sub>  excitation energy of BODIPYs
 
 ## Revision notes
 
