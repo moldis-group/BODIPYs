@@ -11,9 +11,9 @@ The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT 
 ## BODIPYs
 
 This BODIPYs data set contains  3 files:  
-[77k_BODIPYs_properties.txt.bz2](https://drive.google.com/file/d/1NAor-rHYtVwCat4Ms3IkdyDL27alqu6l/view?usp=sharing) (4 MB)    
 [77k_BODIPYs_DFT_geom.xyz.bz2](https://drive.google.com/file/d/1nX_duEd0nnyMVqenR4mhp7PH1mZ_4dAy/view?usp=sharing) (40 MB)     
 [77k_BODIPYs_PM7_geom.xyz.bz2](https://drive.google.com/file/d/1erNz0F6w4iGybOgtwI3-ccCUcnHzzVrb/view?usp=sharing) (44 MB)     
+[77k_BODIPYs_properties.txt.bz2](https://drive.google.com/file/d/1NAor-rHYtVwCat4Ms3IkdyDL27alqu6l/view?usp=sharing) (4 MB)    
 
 Unzip the files in linux as
 ```
@@ -24,7 +24,18 @@ bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
 
 ***
 
-## 77k_BODIPYs_properties.txt contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
+## Files
+### 77k_BODIPYs_DFT_geom.xyz 
+
+Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
+
+### 77k_BODIPYs_PM7_geom.xyz 
+
+Contains coordinates of 77412 BODIPYs relaxed using PM7.
+
+### 77k_BODIPYs_properties.txt 
+
+Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level as described below
 
 Column 01 --> names of the molecules made up using site (s_nn) and type of substitution (g_mm)
 
@@ -51,11 +62,6 @@ Column 13 --> SCF energy (in au)
 Column 14 --> HOMO (in eV)
 Column 15 --> LUMO (in eV)
 Column 16 --> Heat of formation (in kcal/mol)
-
-77k_BODIPYs_DFT_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
-77k_BODIPYs_PM7_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed using PM7.
-
-Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows
 
 ***
 
