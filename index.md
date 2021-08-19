@@ -67,7 +67,9 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ***
 
-| **Type**                     | **# entries**
+### Dataset breakdown
+
+| **Type**                 | **# entries**
 | Unsubstituted            | 1       
 | Singly-substituted       | 184      
 | Doubly-substituted       | 22287     
