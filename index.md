@@ -4,7 +4,7 @@ layout: default
 
 ## BODIPYs dataset
 
-The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub>  first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
+The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the S<sub>0</sub> → S<sub>1</sub> first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
 
 ***
 
@@ -80,6 +80,10 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 | Septuply-substituted     | 10983     
 
 ## Machine for S<sub>0</sub>  → S<sub>1</sub>  excitation energy of BODIPYs
+
+[https://moldis.tifrh.res.in/db/bodipy](https://moldis.tifrh.res.in/db/bodipy)
+
+***
 
 ## Revision notes
 
