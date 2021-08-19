@@ -67,7 +67,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ***
 
-### Dataset breakdown
+## Dataset breakdown
 
 | **Type**                 | **# entries**
 | Unsubstituted            | 1       
