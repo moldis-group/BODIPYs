@@ -79,6 +79,8 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
 
+## Machine for S0 → S1 excitation energy of BODIPYs
+
 ## Revision notes
 
 _19 August 2021: First upload_
@@ -90,5 +92,6 @@ _19 August 2021: First upload_
 Amit Gupta, Sabyasachi Chakraborty and Raghunathan Ramakrishnan     
 Mach. Learn.: Sci. Technol. 2 (2021) 035010     
 [Supplementary Information to the article (PDF)](data/SI.pdf)
+
 
 ***
