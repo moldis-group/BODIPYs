@@ -22,7 +22,9 @@ bunzip2 -f 77k_BODIPYs_DFT_geom.xyz.bz2
 bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
 ```
 
-77k_BODIPYs_properties.txt contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
+***
+
+## 77k_BODIPYs_properties.txt contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
 
 Column 01 --> names of the molecules made up using site (s_nn) and type of substitution (g_mm)
 
@@ -30,25 +32,22 @@ Example: g_01_s_7_00002 implies there is a substitution at site 7 by group 01. T
 
 Column 02 --> T/V in training/validation set in ML
 
-TD-DFT Properties
+#### TD-DFT Properties
 Column 03 --> State (Always 1)
 Column 04 --> S0 -> S1 Excitation energy (in cm^-1)
 Column 05 --> S0 -> S1 Excitation energy (in nm)
 Column 06 --> S0 -> S1 Excitation energy (in au)
 Column 07 --> S0 -> S1 Excitation energy (in eV)
+Column 08 --> Oscillator strength of S0 -> S1 excitation
+Column 09 --> T^2 (in au^2), square of transition dipole moment
+Column 10 --> TX (in au), x-component of transition dipole moment vector
+Column 11 --> TY (in au), y-component of transition dipole moment vector
+Column 12 --> TZ (in au), z-component of transition dipole moment vector
 
-Column 08 --> oscillator strength of S0 -> S1 excitation
-
-Transition electric dipole moments
-Column 09 --> T^2 (in au^2)
-Column 10 --> TX (in au)
-Column 11 --> TY (in au)
-Column 12 --> TZ (in au)
-
-DFT Ground State Energy
+#### DFT Ground State Energy
 Column 13 --> SCF energy (in au)
 
-PM7 properties
+#### PM7 properties
 Column 14 --> HOMO (in eV)
 Column 15 --> LUMO (in eV)
 Column 16 --> Heat of formation (in kcal/mol)
