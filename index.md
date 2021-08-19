@@ -55,8 +55,8 @@ Column 16 --> Heat of formation (in kcal/mol)
 77k_BODIPYs_DFT_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
 77k_BODIPYs_PM7_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed using PM7.
 
-Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows:
-```
+Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows
+
 | Type                     | # entries
 | Unsubstituted            | 1       
 | Singly-substituted       | 184      
@@ -66,8 +66,6 @@ Molecule ordering is consistent across all files. BODIPYs' order of appearance i
 | Quintuply-substituted    | 10982     
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
-
-```
 
 
 ### B3LYP/6-31G(2df,p) geometries
