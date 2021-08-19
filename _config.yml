@@ -1,6 +1,6 @@
-title: QM9NMR
+title: BODIPYs
 logo: toc.png
-description: NMR Shielding Parameters for 130831 QM9 Molecules with up to 9 C, N, O and F atoms
+description: First electronic excited state properties of 77k BODIPY molecules
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
