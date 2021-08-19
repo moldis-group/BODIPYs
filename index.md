@@ -2,13 +2,72 @@
 layout: default
 ---
 
-## QM9NMR dataset
+## BODIPYs dataset
 
-The QM9-NMR dataset [Ref-1] contains gas and (implicit) solvent phase mPW1PW91/6-311+G(2d,p)-level chemical shielding for all atoms in the QM9 dataset [Ref-2] comprising 130,831 stable, synthetically feasible small organic molecules with up to 9 C, N, O and F atoms.
+The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT level properties of the first electronic excited state of 77412 molecules derived from the BODIPY dye by combinatorial substitution.
 
 ***
 
-## QM9NMR
+## BODIPYs
+
+This BODIPYs data set contains  3 files: 
+77k_BODIPYs_properties.txt.bz2 (4 MB)
+77k_BODIPYs_DFT_geom.xyz.bz2 (40 MB)
+77k_BODIPYs_PM7_geom.xyz.bz2 (44 MB)
+
+Unzip the files in linux as
+bunzip2 -f 77k_BODIPYs_properties.txt.bz2
+bunzip2 -f 77k_BODIPYs_DFT_geom.xyz.bz2
+bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
+
+77k_BODIPYs_properties.txt --> Contains properties of 77412 BODIPYs, calculated at RIJCOSX-CAM-B3LYP/def2-TZVP level
+
+Column 01 --> names of the molecules made up using site (s_nn) and type of substitution (g_mm)
+Example: g_01_s_7_00002 implies there is a substitution at site 7 by group 01. The last digits (here _00002) are for indexing and can be ignored.  Long names (Hextuply/Septuply-substituted) do not contain '_'.
+
+Column 02 --> T/V in training/validation set in ML
+
+TD-DFT Properties
+Column 03 --> State (Always 1)
+Column 04 --> S0 -> S1 Excitation energy (in cm^-1)
+Column 05 --> S0 -> S1 Excitation energy (in nm)
+Column 06 --> S0 -> S1 Excitation energy (in au)
+Column 07 --> S0 -> S1 Excitation energy (in eV)
+
+Column 08 --> oscillator strength of S0 -> S1 excitation
+
+Transition electric dipole moments
+Column 09 --> T^2 (in au^2)
+Column 10 --> TX (in au)
+Column 11 --> TY (in au)
+Column 12 --> TZ (in au)
+
+DFT Ground State Energy
+Column 13 --> SCF energy (in au)
+
+PM7 properties
+Column 14 --> HOMO (in eV)
+Column 15 --> LUMO (in eV)
+Column 16 --> Heat of formation (in kcal/mol)
+
+77k_BODIPYs_DFT_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed at B3LYP/def2-SVP level.
+77k_BODIPYs_PM7_geom.xyz --> Contains coordinates of 77412 BODIPYs relaxed using PM7.
+
+Molecule ordering is consistent across all files. BODIPYs' order of appearance in all files is as follows:
+==================================================================================================================================
+|Serial|  TYPE of BODIPY      | Entries |      Appearance in       |      Appearance in           |      Appearance in           |
+|  No. |                      |         |77k_BODIPYs_properties.txt|   77k_BODIPYs_DFT_geom.xyz   |   77k_BODIPYs_PM7_geom.xyz   |
+==================================================================================================================================
+|  1.  | Unsubstituted        |    1    | Line     1               | Line       1 -- Line      23 | Line       1 -- Line      23 |
+|  2.  | Singly-substituted   |   184   | Line     2 -- Line   185 | Line      24 -- Line    5135 | Line      24 -- Line    5135 |
+|  3.  | Doubly-substituted   |  22287  | Line   186 -- Line 22472 | Line    5136 -- Line  737727 | Line    5136 -- Line  737727 |
+|  4.  | Triply-substituted   |  10999  | Line 22473 -- Line 33471 | Line  737728 -- Line 1154010 | Line  737728 -- Line 1154010 |
+|  5.  | Quadruply-substituted|  10990  | Line 33472 -- Line 44461 | Line 1154011 -- Line 1624604 | Line 1154011 -- Line 1624604 |
+|  6.  | Quintuply-substituted|  10982  | Line 44462 -- Line 55443 | Line 1624605 -- Line 2153455 | Line 1624605 -- Line 2153455 |
+|  7.  | Hextuply-substituted |  10986  | Line 55444 -- Line 66429 | Line 2153456 -- Line 2733543 | Line 2153456 -- Line 2733543 |
+|  8.  | Septuply-substituted |  10983  | Line 66430 -- Line 77412 | Line 2733544 -- Line 3368359 | Line 2733544 -- Line 3368359 |
+==================================================================================================================================
+
 
 ### B3LYP/6-31G(2df,p) geometries
 [SI_DFT_geo.xyz](https://drive.google.com/file/d/1Kr9ZdYw503QsGT8qO2bid8wWQGQB-401/view?usp=sharing) Contains Cartesian coordinates of 130,831 molecules relaxed at B3LYP/6-31G(2df,p) level. These geometries are collected from the QM9 dataset reported in the [Ref-2](https://www.nature.com/articles/sdata201422)
@@ -67,8 +126,7 @@ Gas      - 232.4620
 
 ## Revision notes
 
-_19 June 2021: In our original upload, the atomic indices of the baseline data such as the PM7 geometries were shuffled. We thank Eric Collins for pointing this out. We have now uploaded the file 'pm7.tar.gz' with correct atomic indices._
-
+_19 August 2021: First upload
 ***
 
 ## References
