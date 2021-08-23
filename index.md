@@ -51,12 +51,12 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 **Column 02** T/V in training/validation set in ML       
 **Column 03** State index (always 1)    
-**Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm^-1)    
+**Column 04** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in cm<sup>-1</sup>)    
 **Column 05** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in nm)     
 **Column 06** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in au)     
 **Column 07** S<sub>0</sub>  → S<sub>1</sub>  Excitation energy (in eV)     
 **Column 08** Oscillator strength of S<sub>0</sub>  → S<sub>1</sub>  excitation     
-**Column 09** T^2 (in au^2), square of transition dipole moment     
+**Column 09** T<sup>2</sup> (in au<sup>2</sup>), square of transition dipole moment     
 **Column 10** TX (in au), x-component of transition dipole moment vector     
 **Column 11** TY (in au), y-component of transition dipole moment vector     
 **Column 12** TZ (in au), z-component of transition dipole moment vector      
@@ -92,10 +92,10 @@ _19 August 2021: First upload_
 ***
 
 ## References
-[Ref-1] [_Revving up <sup>13</sup>C NMR shielding predictions across chemical space: benchmarks for atoms-in-molecules kernel machine learning with new data for 134 kilo molecules_](https://doi.org/10.1088/2632-2153/abe347)            
-Amit Gupta, Sabyasachi Chakraborty and Raghunathan Ramakrishnan     
+[Ref-1] [_Data-driven modeling of S<sub>0</sub>  → S<sub>1</sub> transition in the Chemical Space of BODIPYs: High-throughput computation, chemical trends and
+machine learning guided design _](https://doi.org/10.1088/2632-2153/abe347)            
+Amit Gupta, Sabyasachi Chakraborty, Debashree Ghosh and Raghunathan Ramakrishnan     
 Mach. Learn.: Sci. Technol. 2 (2021) 035010     
-[Supplementary Information to the article (PDF)](data/SI.pdf)
 
 
 ***
