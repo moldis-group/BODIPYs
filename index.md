@@ -11,9 +11,9 @@ The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT 
 ## BODIPYs
 
 This BODIPYs data set contains  3 files:  
-[77k_BODIPYs_DFT_geom.xyz.bz2](https://drive.google.com/file/d/1nX_duEd0nnyMVqenR4mhp7PH1mZ_4dAy/view?usp=sharing) (40 MB)     
-[77k_BODIPYs_PM7_geom.xyz.bz2](https://drive.google.com/file/d/1erNz0F6w4iGybOgtwI3-ccCUcnHzzVrb/view?usp=sharing) (44 MB)     
-[77k_BODIPYs_properties.txt.bz2](https://drive.google.com/file/d/1NAor-rHYtVwCat4Ms3IkdyDL27alqu6l/view?usp=sharing) (4 MB)    
+[77k_BODIPYs_DFT_geom.xyz.bz2](https://figshare.com/ndownloader/files/30562983) (40 MB)     
+[77k_BODIPYs_PM7_geom.xyz.bz2](https://figshare.com/ndownloader/files/30562986) (44 MB)     
+[77k_BODIPYs_properties.txt.bz2](https://figshare.com/ndownloader/files/30562989) (4 MB)    
 
 Unzip the files in linux as
 ```
