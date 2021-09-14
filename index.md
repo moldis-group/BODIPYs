@@ -79,9 +79,13 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 | Hextuply-substituted     | 10986     
 | Septuply-substituted     | 10983     
 
-## Machine for S<sub>0</sub>  → S<sub>1</sub>  excitation energy of BODIPYs
+## Related resources
 
+#### Machine for S<sub>0</sub>  → S<sub>1</sub>  excitation energy of BODIPYs
 [https://moldis.tifrh.res.in/db/bodipy](https://moldis.tifrh.res.in/db/bodipy)
+
+#### Codes for inverse-designing BODIPYs
+[https://github.com/moldis-group/bodipy](https://github.com/moldis-group/bodipy)
 
 ***
 
