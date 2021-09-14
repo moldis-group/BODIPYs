@@ -97,7 +97,7 @@ _19 August 2021: First upload_
 
 ## References
 [Ref-1] [_Data-driven modeling of S<sub>0</sub>  → S<sub>1</sub> transition in the Chemical Space of BODIPYs: High-throughput computation, chemical trends and
-machine learning guided design _](link here)            
+machine learning guided design_](link here)            
 Amit Gupta, Sabyasachi Chakraborty, Debashree Ghosh and Raghunathan Ramakrishnan     
 submitted (2021)    
 
