@@ -11,12 +11,14 @@ The BODIPYs dataset [Ref-1] contains (gas phase) DFT level geometries and TDDFT 
 ## BODIPYs
 
 This BODIPYs data set contains  3 files:  
+[77k_BODIPYs.smi.bz2](https://github.com/moldis-group/BODIPYs/blob/main/77k_BODIPYs.smi.bz2) (0.5 MB)  
 [77k_BODIPYs_DFT_geom.xyz.bz2](https://figshare.com/ndownloader/files/30562983) (40 MB)     
 [77k_BODIPYs_PM7_geom.xyz.bz2](https://figshare.com/ndownloader/files/30562986) (44 MB)     
 [77k_BODIPYs_properties.txt.bz2](https://figshare.com/ndownloader/files/30562989) (4 MB)    
 
 Unzip the files in linux as
 ```
+bunzip2 -f 77k_BODIPYs.smi.bz2
 bunzip2 -f 77k_BODIPYs_properties.txt.bz2
 bunzip2 -f 77k_BODIPYs_DFT_geom.xyz.bz2
 bunzip2 -f 77k_BODIPYs_PM7_geom.xyz.bz2
@@ -92,6 +94,7 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 ## Revision notes
 
 _19 August 2021: First upload_
+_14 December 2021: SMILES added for all 77k molecules
 
 ***
 
