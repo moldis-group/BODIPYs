@@ -93,8 +93,8 @@ Long names (Hextuply/Septuply-substituted) do not contain '_'.
 
 ## Revision notes
 
-_19 August 2021: First upload_
-_14 December 2021: SMILES added for all 77k molecules
+_19 August 2021: First upload_      
+_14 December 2021: SMILES added for all 77k molecules_     
 
 ***
 
