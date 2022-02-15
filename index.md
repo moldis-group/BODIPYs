@@ -104,7 +104,7 @@ _14 December 2021: SMILES added for all 77k molecules_
 [Ref-1] [_Data-driven modeling of S<sub>0</sub>  → S<sub>1</sub> transition in the Chemical Space of BODIPYs: High-throughput computation, chemical trends and
 machine learning guided design_](https://doi.org/10.1063/5.0076787)            
 Amit Gupta, Sabyasachi Chakraborty, Debashree Ghosh and Raghunathan Ramakrishnan     
-J. Chem. Phys. (2021).  
+The Journal of Chemical Physics, 155 (2021) 244102       
 [https://doi.org/10.1063/5.0076787](https://doi.org/10.1063/5.0076787)
 
 Dataset: https://doi.org/10.6084/m9.figshare.16529214.v1
